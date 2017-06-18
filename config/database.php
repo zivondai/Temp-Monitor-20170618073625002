@@ -54,10 +54,10 @@ return [
 
 		'mysql' => [
 			'driver'    => 'mysql',
-			'host'      => env('DB_HOST', 'localhost'),
-			'database'  => env('DB_DATABASE', 'tempmonitor'),
-			'username'  => env('DB_USERNAME', 'root'),
-			'password'  => env('DB_PASSWORD', ''),
+			'host'      => env('DB_HOST', 'us-cdbr-sl-dfw-01.cleardb.net'),
+			'database'  => env('DB_DATABASE', 'ibmx_133fa51dd4e751a'),
+			'username'  => env('DB_USERNAME', 'bff0df2167ef54'),
+			'password'  => env('DB_PASSWORD', '3fcc8064'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
